@@ -12,7 +12,7 @@ from imblearn.over_sampling import SMOTE
 from sklearn.impute import SimpleImputer # Import SimpleImputer for handling NaNs
 
 # Load the dataset
-file_path = "/content/NSE-TATAGLOBAL.csv"
+file_path = "/content/NSE-TATAGLOBAL.csv" #I have used the TATA GLOBAL stock, you can use any other tools
 column_names = ["Date","Open","High","Low","Last","Close","Total Trade Quality","Turnover(Lacs)"]
 df = pd.read_csv(file_path, names=column_names, header=None, skiprows=1)
 
